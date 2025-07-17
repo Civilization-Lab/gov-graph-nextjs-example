@@ -15,7 +15,7 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@Civilization-Lab/gov-graph": "1.0.0-beta.9",
+    "@Civilization-Lab/gov-graph": "1.0.0-beta.10",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",

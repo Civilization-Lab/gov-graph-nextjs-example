@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@Civilization-Lab/gov-graph@1.0.0-beta.9":
-  version "1.0.0-beta.9"
-  resolved "https://npm.pkg.github.com/download/@Civilization-Lab/gov-graph/1.0.0-beta.9/af95615d2af9e7644f7e57c32987519b4fb6771b#af95615d2af9e7644f7e57c32987519b4fb6771b"
-  integrity sha512-HY3rHSvzMdGkpdcOFxdbB7QrM2sigaPmfS/BcyxZPAQXVDD7aGEQai0XXeYJ6Evsz1zg6eGTAgbh54V1am69KQ==
+"@Civilization-Lab/gov-graph@1.0.0-beta.10":
+  version "1.0.0-beta.10"
+  resolved "https://npm.pkg.github.com/download/@Civilization-Lab/gov-graph/1.0.0-beta.10/3b890fcab5a9bf8dcd30be47697c935b2a384756#3b890fcab5a9bf8dcd30be47697c935b2a384756"
+  integrity sha512-73yVCVmW9PMt04PtgvMSYX7qWM5h8wU57mitqLxvtlxaId1XX2CETDLiOhLLk7Xy0sW/lb7eMVjiIWizeKaRbg==
   dependencies:
     d3-ease "^3.0.1"
     d3-hierarchy "^3.1.2"
