@@ -55,7 +55,7 @@ type PageProps = {
 
 export const getStaticProps: Next.GetStaticProps<PageProps> = async () => {
   const client = await GovGraph.Api.Client.new({
-    apiKey: process.env.NEXT_PUBLIC_API_KEY!,
+    apiKey: process.env.CIVLAB_API_KEY!,
   });
 
   const response = await client.GraphData.get();
