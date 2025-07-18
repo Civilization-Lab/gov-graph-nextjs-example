@@ -67,23 +67,28 @@ To use this example, you'll need a CivLab API key. Contact the CivLab team to ob
 
 The `@Civilization-Lab/gov-graph` package is published to GitHub Packages as a private package. You'll need a GitHub Personal Access Token with access to this package.
 
-#### Steps to get access:
+#### Option 1: Get a Token from CivLab Team (Recommended)
 
-1. **Request Package Access**: Contact the CivLab team to grant your GitHub account access to the `@Civilization-Lab/gov-graph` package.
+Contact the CivLab team to request a GitHub Personal Access Token that already has access to the `@Civilization-Lab/gov-graph` package. This is the simplest approach.
 
-2. **Create a Personal Access Token**:
+#### Option 2: Generate Your Own Token
 
-   - Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
-   - Click "Generate new token (classic)"
-   - Give it a descriptive name (e.g., "CivLab Gov Graph Package Access")
-   - Select the following scopes:
-     - `read:packages` - Download packages from GitHub Package Registry
-   - Click "Generate token"
-   - **Copy the token immediately** (you won't be able to see it again)
+This the can your Github account was granted access to the package, follow these steps:
 
-3. **Add the token to your environment**:
-   - Add `GITHUB_TOKEN=your_token_here` to your `.env` file
-   - The token will be used automatically by Yarn to authenticate with GitHub Packages
+**Create a Personal Access Token**:
+
+- Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
+- Click "Generate new token (classic)"
+- Give it a descriptive name (e.g., "CivLab Gov Graph Package Access")
+- Select the following scopes:
+  - `read:packages` - Download packages from GitHub Package Registry
+- Click "Generate token"
+- **Copy the token immediately** (you won't be able to see it again)
+
+#### Add the token to your environment:
+
+- Add `GITHUB_TOKEN=your_token_here` to your `.env` file
+- The token will be used automatically by Yarn to authenticate with GitHub Packages
 
 #### Troubleshooting Package Access
 
@@ -91,6 +96,7 @@ If you encounter authentication errors when installing dependencies:
 
 1. Verify your GitHub account has been granted access to the `@Civilization-Lab/gov-graph` package
 2. Ensure your `GITHUB_TOKEN` is correctly set in `.env`
+3. In the .npmrc, you may have to switch `${GITHUB_TOKEN}` to `$GITHUB_TOKEN`, depending on your OS.
 
 ## Key Components
 
