@@ -9,13 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@Civilization-Lab/gov-graph": "1.0.0-beta.11",
     "fuse.js": "^7.1.0",
     "next": "15.4.1",
     "react": "19.1.0",
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@Civilization-Lab/gov-graph": "1.0.0-beta.10",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
