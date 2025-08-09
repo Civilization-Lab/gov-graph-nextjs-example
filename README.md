@@ -65,25 +65,8 @@ To use this example, you'll need a CivLab API key. Contact the CivLab team to ob
 
 ### GitHub Personal Access Token
 
-The `@Civilization-Lab/gov-graph` package is published to GitHub Packages as a private package. You'll need a GitHub Personal Access Token with access to this package.
+The `@Civilization-Lab/gov-graph` package is published to GitHub Packages as a private package. You'll need a GitHub Personal Access Token with access to this package. Contact the CivLab team to request a GitHub Personal Access Token that already has access to the `@Civilization-Lab/gov-graph` package. This is the simplest approach.
 
-#### Option 1: Get a Token from CivLab Team (Recommended)
-
-Contact the CivLab team to request a GitHub Personal Access Token that already has access to the `@Civilization-Lab/gov-graph` package. This is the simplest approach.
-
-#### Option 2: Generate Your Own Token
-
-This the can your Github account was granted access to the package, follow these steps:
-
-**Create a Personal Access Token**:
-
-- Go to GitHub Settings → Developer settings → Personal access tokens → Tokens (classic)
-- Click "Generate new token (classic)"
-- Give it a descriptive name (e.g., "CivLab Gov Graph Package Access")
-- Select the following scopes:
-  - `read:packages` - Download packages from GitHub Package Registry
-- Click "Generate token"
-- **Copy the token immediately** (you won't be able to see it again)
 
 #### Add the token to your environment:
 
